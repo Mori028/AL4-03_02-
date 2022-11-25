@@ -67,7 +67,7 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _
 		// 最新のキーボード情報だったものは1フレーム前のキーボード情報として保存
 		// 最新のキーボード情報を取得
 		GetHitKeyStateAll(keys);
-
+		　
 		// 画面クリア
 		ClearDrawScreen();
 		//---------  ここからプログラムを記述  ----------//
